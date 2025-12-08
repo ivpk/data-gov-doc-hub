@@ -1,0 +1,32 @@
+# --- Sphinx dokumentacija ---
+# Ignoruojame sugeneruotus failus (HTML, PDF ir kt.)
+_build/
+build/
+
+# --- Python ---
+# Sukompiliuoti Python failai
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtualios aplinkos ---
+# Čia saugomos bibliotekos, jų nereikia kelti į Git
+venv/
+env/
+.venv/
+.env
+
+# --- Laikinieji failai ---
+# Operacinės sistemos failai
+.DS_Store
+Thumbs.db
+
+# Redaktorių nustatymai (nebūtina, bet rekomenduojama)
+.idea/
+.vscode/
+*.swp
+
+# Jei naudojate Word dokumentus kaip šaltinius,
+# ignoruojame laikinuosius Word failus (su ~$)
+~$*.docx
+~$*.doc
