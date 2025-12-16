@@ -29,3 +29,9 @@ language = 'lt'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
+}
